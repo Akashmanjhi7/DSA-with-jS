@@ -44,7 +44,7 @@
 
 // Above Solution is brute force solution 
 
-// New Solution with Maths Algorithum
+// ****New Solution with Maths Algorithum Also with Extra space*****
 
 
 // const rotateArray = (k,arr) =>{
@@ -62,19 +62,45 @@
 // rotateArray(2,array)
 
 
-const rotateArrayRight = (k,arr)=>{
-    let tempArr = Array(arr.length)
-for(let i=0; i<arr.length;i++){
-tempArr[(i+k)%arr.length] = arr[i]
-}
+// const rotateArrayRight = (k,arr)=>{
+//     let tempArr = Array(arr.length)
+// for(let i=0; i<arr.length;i++){
+// tempArr[(i+k)%arr.length] = arr[i]
+// }
 
-console.log(tempArr)
-}
+// console.log(tempArr)
+// }
 
-let array = [1,2,3,4,5]
-rotateArrayRight(2,array)
+// let array = [1,2,3,4,5]
+// rotateArrayRight(2,array)
 
 
+// Find Second Max 
+
+// let arr= [10,20,30,40,50]
+
+// let max
+// let max2
+// arr[0]<arr[1] ?( max=arr[1] , max2 = arr[0]):(max=arr[0] ,max2=[1])
+
+
+
+// for(let i=2;i<arr.length;i++)
+// {
+// if(arr[i]>max){
+//     max2=max
+//     max=arr[i]
+// }
+
+// else if(arr[i]!=max && arr[i]>max2){
+//     max2=arr[i]
+// }
+// }
+
+
+// console.log(max,max2)
+
+// Reverse the array with two pinters technique
 
 
 
